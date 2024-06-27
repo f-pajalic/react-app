@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #ffffff;
+    position: relative; 
+    z-index: 1000; 
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px; 
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 24px; 
+  }
+  
+  .burger-menu {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  @media (max-width: 768px) {
+    .burger-menu {
+      display: block;
+    }
+  }
+  

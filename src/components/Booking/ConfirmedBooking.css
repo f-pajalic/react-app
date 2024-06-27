@@ -1,0 +1,29 @@
+.confirmed-booking-background {
+    background-color: #495e57;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensure the background covers the entire viewport height */
+}
+
+.confirmed-booking-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: #fff;
+    max-width: 1200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.confirmed-booking-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.confirmed-booking-message {
+    font-size: 24px;
+    margin-bottom: 20px;
+}

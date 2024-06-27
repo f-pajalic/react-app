@@ -1,0 +1,46 @@
+.reservations {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+
+.reservations-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.right-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.text {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666666;
+}
